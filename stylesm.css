@@ -144,6 +144,21 @@
         text-align: center;
     }
 
+    .icon3-container {
+        background-color: white;
+        padding: 5px 6px;
+        border-radius: 50%;
+    }
+
+    .icon3 {
+        padding: 0px 5px;
+        height: 21px;
+    }
+
+    #banner3-icon3 {
+        margin-top: 5px;
+    }
+
 
     /* Custom Texts */
     .medium-text {

@@ -132,6 +132,21 @@ footer {
     margin-bottom: 2px;
 }
 
+.icon3-container {
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+#banner3-icon3 {
+    margin-top: 5px;
+}
+
+.icon3 {
+    padding: 15px 20px;
+    height: 100px;
+}
+
 
 /* Custom Texts */
 .medium-text {
