@@ -59,11 +59,22 @@
 }
 
 .banner3-inside {
-    line-height: 7rem;
     padding-left: 50px;
     max-width: 100%;
     height: auto;
     line-height: 2rem;
+}
+
+.banner3-text {
+    font-family: AktifoaLight, sans-serif;
+    font-weight: bold;
+    color: #292929;
+}
+
+.banner3-container {
+    padding-left: 50px;
+    flex: 10; font-family: AktifoaLight;
+    color: #515151;
 }
 
 .banner3-icon {
@@ -73,12 +84,12 @@
 
 }
 
-#medium-text {
+.medium-text {
     font-family: AktifoaMed, sans-serif;
     font-size: 2rem;
 }
 
-#light-text {
+.light-text {
     font-family: AktifoaLight, sans-serif;
     color: #292929;
 }
@@ -92,23 +103,19 @@
     padding: 1.5rem;
 }
 
+.footer-text {
+    color: #FFFFFF;
+    opacity: 78%;
+    font-size: large;
+    margin-left: 12%;
+}
+
 .column {
     padding: 1rem;
 }
 
 .row {
     margin-right: 0%;
-}
-
-.orange-btn{
-
-    background: #F26621;
-    color: #fff;
-    text-decoration: none;
-    font-family: AktifoaMed, sans-serif;;
-    padding: 15px 80px;
-    border-radius: 5px;
-    font-size: 1.5rem;
 }
 
 

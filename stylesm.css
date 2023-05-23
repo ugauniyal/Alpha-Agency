@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: aliceblue;
+    }
+
+    .banner {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-attachment: scroll;
+    }
+
+    #first-banner {
+        background-image: url('media/banner\ image\ copy.png');
+        background-size: cover;
+        height: 200px;
+        width: 100%;
+    }
+
+    #second-banner {
+        background-image: url('media/back/back.png');
+        height: 180px;
+        background-size: cover;
+        width: 100%;
+    }
+
+    #third-banner {
+        display: flex;
+        height: 200px;
+    }
+
+    #banner-icon {
+        background-color: #292929;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        padding: 10px;
+        border-radius: 50%;
+
+    }
+
+    .banner1-inside {
+        margin-left: 8%;
+        margin-top: 2.5%;
+        max-width: 100%;
+        height: 10px;
+        line-height: 8px;
+    }
+
+    .banner2-inside {
+        height: 0.8vh;
+        line-height: 8px !important;
+    }
+
+    .banner3-inside {
+        line-height: 5rem;
+        padding-left: 20px;
+        max-width: 100%;
+        height: auto;
+        line-height: 2rem;
+    }
+
+    .banner3-text {
+        font-family: AktifoaLight, sans-serif;
+        font-weight: bold;
+        color: #292929;
+        font-size: 8px;
+    }
+
+    .banner3-container {
+        padding-left: 10px;
+        flex: 10;
+        font-family: AktifoaLight;
+        color: #515151;
+        font-size: 4px;
+    }
+
+    .banner3-icon {
+        margin-left: 5%;
+        background-color: #FFFFFF;
+        height: 8px;
+    }
+
+    .footer-container {
+        background-color: #1A1A1A;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 1.5rem;
+    }
+
+    .footer-text {
+        color: #FFFFFF;
+        opacity: 78%;
+        font-size: 8px;
+        margin-left: 12%;
+    }
+
+    .medium-text {
+        font-family: AktifoaMed, sans-serif;
+        font-size: 0.5rem;
+    }
+
+    .light-text {
+        font-family: AktifoaLight, sans-serif;
+        color: #292929;
+        font-size: 0.3rem !important;
+    }
+
+    h4 {
+        font-size: 8px;
+    }
+}
