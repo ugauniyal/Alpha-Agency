@@ -1,0 +1,92 @@
+.form {
+    color: black;
+}
+
+.news {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+}
+
+.newsContent {
+    color: #ffffff;
+    background-color: #FFFFFF;
+    font-size: small;
+    box-shadow: 1px 1px 10px #888888;
+    margin-left: 60%;
+    padding: 10px;
+    border: none;
+    width: 55%;
+    border-radius: 2%;
+    color: black;
+    font-family: AktifoaLight;
+}
+
+.newsContent h3 {
+    font-weight: bold;
+}
+
+.newsContent form {
+    padding-top: 10px;
+}
+
+.newsContent .email{
+    width: 80%;
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: black;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+    color: #292929;
+    font-family: AktifoaLight;
+}
+
+.chkbox {
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: AktifoaLight;
+    font-size: 13px;
+}
+
+.btn-primary {
+    background: #F26621 !important;
+    color: #fff !important;
+    font-family: AktifoaMed, sans-serif !important;
+    border: none;
+    /* padding: 15px 80px; */
+    border-radius: 5px;
+
+    /* font-size: 1.5rem; */
+}
+
+.btn-lg {
+    padding: 10px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+@font-face { font-family: Aktifoa; src: url('media/aktifoa-semibold.otf'); }
+@font-face { font-family: AktifoaMed; src: url('media/aktifoa-medium.otf'); }
+@font-face { font-family: AktifoaLight; src: url('media/aktifoa-light.otf'); }
