@@ -4,10 +4,6 @@
         overflow-x: hidden;
     }
 
-    body {
-        background-color: aliceblue;
-    }
-
     .banner {
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -15,22 +11,20 @@
     }
 
     #first-banner {
-        background-image: url('media/banner\ image\ copy.png');
+        background-image: url('media/Mask\ Group\ 2.png');
         background-size: cover;
-        height: 200px;
-        width: 100%;
+        max-width: 100%;
     }
 
     #second-banner {
-        background-image: url('media/back/back.png');
-        height: 200px;
+        background-image: url('media/Mask\ Group\ 1.png');
         background-size: cover;
-        width: 100%;
     }
 
     #third-banner {
         display: flex;
-        height: 200px;
+        flex-direction: column;
+        height: 1500px;
     }
 
     .banner2-text {
@@ -50,14 +44,14 @@
     .banner1-inside {
         margin-left: 8%;
         margin-top: 2.5%;
-        max-width: 100%;
-        height: 10px;
+        width: 107px;
+        height: 36px;
         line-height: 8px;
     }
 
     .banner2-inside {
-        height: 0.8vh;
-        line-height: 8px !important;
+        height: 2.8vh;
+        line-height: 15px !important;
     }
 
     .banner3-inside {
@@ -72,8 +66,13 @@
         font-family: AktifoaLight, sans-serif;
         font-weight: bold;
         color: #292929;
-        font-size: 2px;
+        font-size: 18px;
+        margin-bottom: 4%;
 
+    }
+
+    .banner3-inside h1 {
+        font-size: 25px;
     }
 
     .banner3-container {
@@ -81,14 +80,35 @@
         flex: 10;
         font-family: AktifoaLight;
         color: #515151;
-        font-size: 2px;
+        font-size: 14px;
+        width: 350px;
+        line-height: 2rem;
     }
 
     .banner3-icon {
         margin-left: 7%;
         background-color: #FFFFFF;
-        height: 8px;
+        height: 34px;
+        margin-bottom: 10%;
+        flex: 1;
     }
+
+    #banner3-image {
+        flex:1;
+        background-image: url('media/GS_DIGITAL_AD_WALL_FILMS_INTERIOR_DESIGN_COLLECTION_Indoor_MPI8621_Removable.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        order: 2;
+    }
+
+    #banner3-bg {
+        order: 1;
+    }
+
+    #banner3-flex {
+        display: block;
+    }
+
 
     .footer-container {
         background-color: #1A1A1A;
@@ -114,50 +134,100 @@
     }
 
     .btn-lg {
-        padding: 12px 5px !important;
-        font-size: 8px !important;
+        padding: 19px 41px !important;
+        font-size: 10px !important;
         line-height: 2px;
+        width: 184px;
     }
 
     .icon {
         background-color: #292929;
-        width: 25px;
-        height: 20px;
-        margin: 4px 10px;
+        width: 44px;
+        height: 58px;
+        /* padding: 20px 20px; */
+        margin: 4px 26px;
         margin-left: 30px;
         border-radius: 50%;
-        font-size: 5px;
+        font-size: 12px;
     }
 
     .icon-container {
         margin-top: 5px;
-        height: 10px;
-        width: 20px;
+        height: 51px;
+        width: 22px;
     }
 
     .banner1-icon {
         display: flex;
         flex-direction: row;
-        margin-top: 1%;
-        margin-left: 0%;
+        margin-top: 7%;
+        margin-left: 1%;
         align-items: flex-start;
         text-align: center;
     }
 
     .icon3-container {
         background-color: white;
-        padding: 5px 6px;
+        padding: 13px 5px 7px 11px;
         border-radius: 50%;
+        margin-right: 85%;
+        margin-top: 10%;
     }
 
     .icon3 {
-        padding: 0px 5px;
-        height: 21px;
+        padding: 19px 6px 6px 6px;
+        border-radius: 50%;
+        height: 80px;
     }
 
     #banner3-icon3 {
         margin-top: 5px;
     }
+
+    #banner1-text1 {
+        font-size: 20px;
+        width: 329px;
+        line-height: 25px;
+    }
+
+    #banner1-text2 {
+        font-size: 13px !important;
+        width: 248px;
+        line-height: 25px;
+        margin-top: 50px;
+    }
+
+    #banner2-text1 {
+        font-size: 20px !important;
+        width: 315px;
+        font-weight: bold;
+    }
+
+    #banner2-text2 {
+        font-size: 12px !important;
+        width: 315px;
+    }
+
+    #banner2-text3 {
+        font-size: 12px !important;
+        width: 199px;
+        font-weight: bold;
+        margin-top: 7%;
+    }
+
+    .banner2-text4 {
+        font-family: AktifoaLight, sans-serif;
+        color: #292929;
+        font-size: 9px !important;
+        height: 35px;
+        width: 282px;
+        font-weight: bold;
+    }
+
+    ol, ul {
+        padding-left: 1rem;
+    }
+
 
 
     /* Custom Texts */

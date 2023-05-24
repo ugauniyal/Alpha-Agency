@@ -76,6 +76,7 @@
     padding-left: 50px;
     flex: 10; font-family: AktifoaLight;
     color: #515151;
+    margin-right: 10%;
 }
 
 .banner3-icon {
@@ -83,6 +84,17 @@
     background-color: #FFFFFF;
     height: 50px;
 
+}
+
+#banner3-flex {
+    display: flex;
+}
+
+#banner3-image {
+    flex:1;
+    background-image: url('media/banner3/banner3@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
